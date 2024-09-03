@@ -19,7 +19,7 @@ function EditorPage() {
   const socketRef = useRef(null);
 
   // JDoodle API constants
-  const JDoodle_API_URL = "https://api.jdoodle.com/v1/execute";
+  const JDoodle_API_URL = "https://cors-anywhere.herokuapp.com/https://api.jdoodle.com/v1/execute";
   const CLIENT_ID = "f00ae9dece81ff4d8ec46df2dbc95a20"; // Replace wijth your JDoodle client ID
   const CLIENT_SECRET = "f93ae99b855942566defd382d903754db46973690fefad1c522b934ec198b341"; // Replace with your JDoodle client secret
 
