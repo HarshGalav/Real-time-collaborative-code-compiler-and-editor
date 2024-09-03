@@ -133,13 +133,8 @@ function EditorPage() {
           className="col-md-2 bg-dark text-light d-flex flex-column h-100"
           style={{ boxShadow: "2px 0px 4px rgba(0, 0, 0, 0.1)" }}
         >
-          <img
-            src="/images/codecast.png"
-            alt="Logo"
-            className="img-fluid mx-auto"
-            style={{ maxWidth: "150px", marginTop: "-43px" }}
-          />
-          <hr style={{ marginTop: "-3rem" }} />
+           <h5 className="text-center my-3">Collaborative Code Room</h5>
+           <hr style={{ marginTop: "-1rem" }} />
 
           {/* Client list container */}
           <div className="d-flex flex-column flex-grow-1 overflow-auto">
